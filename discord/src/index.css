@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.black_color{
+  background-color: #1e1f22;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 64.5%;
+}
+.guildSeparator-a4uisj {
+  height: 2px;
+  width: 32px;
+  border-radius: 1px;
+  background-color: rgba(255,255,255,0.1);
+}
+.logo_img{
+  width: 50px;
+  padding: 1rem;
+}
+.company_logo{
+  width: 70px;
+  border-radius: 100%;
+}
+.discord_logo{
+  background-color: #5865f2;
+  margin-top: 1rem;
+  border-radius: 1.6rem;
+}
+.icon{  
+  margin-bottom: 1.4rem;
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+  color: #4ba559;
+}
+.icon:hover{
+  color: aliceblue;
+  border-radius: 1.6rem;
+  background-color: #4ba559;
+}
+.icon1{
+  margin-bottom: 1.4rem;
+}
+.aside{
+  width: 94.5vw;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  background: #313338;
+}
+.first{
+  background-color: #2b2d31;
+  width: 19vw;
+  height: 100%;
+}
+.inputText{
+  background: rgba(0,0,0,0.4);
+  color: #2b2d31;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.3rem;
+}
+.startConversationInput{
+  background: rgba(0,0,0,0.4);
+  font-size: 2rem;
+  border: none;
+  color: #7e8085;
+  border-radius: 6px;
+}
+.converstionStartDiv{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 8px;
+  background-color: #2b2d31;
+}
+.converstionStartDiv:focus{
+  outline: none!important;
+}
+.textCenter{
+  position: absolute;
+  top: -3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 1.5rem;
+}
+.blackBag{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: -7.3rem;
+  background: rgba(0,0,0,0.8);
+}
+.specialText{
+  color: #9a9fa5;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.verticalSeperator{
+  background-color: #9a9fa5;
+}
+.borderBottom{
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+.borderRight{
+  border-right: 1px solid rgba(255,255,255,0.1);
+}
+.borderBottom2{
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
